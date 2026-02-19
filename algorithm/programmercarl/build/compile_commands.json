@@ -19,6 +19,12 @@
 },
 {
   "directory": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/build",
+  "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\app.dir\\src\\binary_tree.cpp.obj -c J:\\my_project\\04_my_github\\cpp_learning\\algorithm\\programmercarl\\src\\binary_tree.cpp",
+  "file": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/binary_tree.cpp",
+  "output": "CMakeFiles/app.dir/src/binary_tree.cpp.obj"
+},
+{
+  "directory": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/build",
   "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\app.dir\\src\\hash_table.cpp.obj -c J:\\my_project\\04_my_github\\cpp_learning\\algorithm\\programmercarl\\src\\hash_table.cpp",
   "file": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/hash_table.cpp",
   "output": "CMakeFiles/app.dir/src/hash_table.cpp.obj"
@@ -28,5 +34,17 @@
   "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\app.dir\\src\\linked_list.cpp.obj -c J:\\my_project\\04_my_github\\cpp_learning\\algorithm\\programmercarl\\src\\linked_list.cpp",
   "file": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/linked_list.cpp",
   "output": "CMakeFiles/app.dir/src/linked_list.cpp.obj"
+},
+{
+  "directory": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/build",
+  "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\app.dir\\src\\stack_and_queue.cpp.obj -c J:\\my_project\\04_my_github\\cpp_learning\\algorithm\\programmercarl\\src\\stack_and_queue.cpp",
+  "file": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/stack_and_queue.cpp",
+  "output": "CMakeFiles/app.dir/src/stack_and_queue.cpp.obj"
+},
+{
+  "directory": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/build",
+  "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\app.dir\\src\\two_pointers.cpp.obj -c J:\\my_project\\04_my_github\\cpp_learning\\algorithm\\programmercarl\\src\\two_pointers.cpp",
+  "file": "J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/two_pointers.cpp",
+  "output": "CMakeFiles/app.dir/src/two_pointers.cpp.obj"
 }
 ]

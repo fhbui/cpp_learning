@@ -113,11 +113,26 @@ CMakeFiles/app.dir/src/array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/array.cpp.s"
 	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\array.cpp -o CMakeFiles\app.dir\src\array.cpp.s
 
+CMakeFiles/app.dir/src/binary_tree.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/binary_tree.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
+CMakeFiles/app.dir/src/binary_tree.cpp.obj: J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/binary_tree.cpp
+CMakeFiles/app.dir/src/binary_tree.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/binary_tree.cpp.obj"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/binary_tree.cpp.obj -MF CMakeFiles\app.dir\src\binary_tree.cpp.obj.d -o CMakeFiles\app.dir\src\binary_tree.cpp.obj -c J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\binary_tree.cpp
+
+CMakeFiles/app.dir/src/binary_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/binary_tree.cpp.i"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\binary_tree.cpp > CMakeFiles\app.dir\src\binary_tree.cpp.i
+
+CMakeFiles/app.dir/src/binary_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/binary_tree.cpp.s"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\binary_tree.cpp -o CMakeFiles\app.dir\src\binary_tree.cpp.s
+
 CMakeFiles/app.dir/src/hash_table.cpp.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/hash_table.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
 CMakeFiles/app.dir/src/hash_table.cpp.obj: J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/hash_table.cpp
 CMakeFiles/app.dir/src/hash_table.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/hash_table.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/hash_table.cpp.obj"
 	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/hash_table.cpp.obj -MF CMakeFiles\app.dir\src\hash_table.cpp.obj.d -o CMakeFiles\app.dir\src\hash_table.cpp.obj -c J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\hash_table.cpp
 
 CMakeFiles/app.dir/src/hash_table.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/app.dir/src/linked_list.cpp.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/linked_list.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
 CMakeFiles/app.dir/src/linked_list.cpp.obj: J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/linked_list.cpp
 CMakeFiles/app.dir/src/linked_list.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/linked_list.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/app.dir/src/linked_list.cpp.obj"
 	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/linked_list.cpp.obj -MF CMakeFiles\app.dir\src\linked_list.cpp.obj.d -o CMakeFiles\app.dir\src\linked_list.cpp.obj -c J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\linked_list.cpp
 
 CMakeFiles/app.dir/src/linked_list.cpp.i: cmake_force
@@ -143,13 +158,46 @@ CMakeFiles/app.dir/src/linked_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/linked_list.cpp.s"
 	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\linked_list.cpp -o CMakeFiles\app.dir\src\linked_list.cpp.s
 
+CMakeFiles/app.dir/src/stack_and_queue.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/stack_and_queue.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
+CMakeFiles/app.dir/src/stack_and_queue.cpp.obj: J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/stack_and_queue.cpp
+CMakeFiles/app.dir/src/stack_and_queue.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/src/stack_and_queue.cpp.obj"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/stack_and_queue.cpp.obj -MF CMakeFiles\app.dir\src\stack_and_queue.cpp.obj.d -o CMakeFiles\app.dir\src\stack_and_queue.cpp.obj -c J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\stack_and_queue.cpp
+
+CMakeFiles/app.dir/src/stack_and_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/stack_and_queue.cpp.i"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\stack_and_queue.cpp > CMakeFiles\app.dir\src\stack_and_queue.cpp.i
+
+CMakeFiles/app.dir/src/stack_and_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/stack_and_queue.cpp.s"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\stack_and_queue.cpp -o CMakeFiles\app.dir\src\stack_and_queue.cpp.s
+
+CMakeFiles/app.dir/src/two_pointers.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/two_pointers.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
+CMakeFiles/app.dir/src/two_pointers.cpp.obj: J:/my_project/04_my_github/cpp_learning/algorithm/programmercarl/src/two_pointers.cpp
+CMakeFiles/app.dir/src/two_pointers.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/app.dir/src/two_pointers.cpp.obj"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/two_pointers.cpp.obj -MF CMakeFiles\app.dir\src\two_pointers.cpp.obj.d -o CMakeFiles\app.dir\src\two_pointers.cpp.obj -c J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\two_pointers.cpp
+
+CMakeFiles/app.dir/src/two_pointers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/two_pointers.cpp.i"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\two_pointers.cpp > CMakeFiles\app.dir\src\two_pointers.cpp.i
+
+CMakeFiles/app.dir/src/two_pointers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/two_pointers.cpp.s"
+	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\src\two_pointers.cpp -o CMakeFiles\app.dir\src\two_pointers.cpp.s
+
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/main.cpp.obj" \
 "CMakeFiles/app.dir/src/_string.cpp.obj" \
 "CMakeFiles/app.dir/src/array.cpp.obj" \
+"CMakeFiles/app.dir/src/binary_tree.cpp.obj" \
 "CMakeFiles/app.dir/src/hash_table.cpp.obj" \
-"CMakeFiles/app.dir/src/linked_list.cpp.obj"
+"CMakeFiles/app.dir/src/linked_list.cpp.obj" \
+"CMakeFiles/app.dir/src/stack_and_queue.cpp.obj" \
+"CMakeFiles/app.dir/src/two_pointers.cpp.obj"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
@@ -157,13 +205,16 @@ app_EXTERNAL_OBJECTS =
 app.exe: CMakeFiles/app.dir/main.cpp.obj
 app.exe: CMakeFiles/app.dir/src/_string.cpp.obj
 app.exe: CMakeFiles/app.dir/src/array.cpp.obj
+app.exe: CMakeFiles/app.dir/src/binary_tree.cpp.obj
 app.exe: CMakeFiles/app.dir/src/hash_table.cpp.obj
 app.exe: CMakeFiles/app.dir/src/linked_list.cpp.obj
+app.exe: CMakeFiles/app.dir/src/stack_and_queue.cpp.obj
+app.exe: CMakeFiles/app.dir/src/two_pointers.cpp.obj
 app.exe: CMakeFiles/app.dir/build.make
 app.exe: CMakeFiles/app.dir/linkLibs.rsp
 app.exe: CMakeFiles/app.dir/objects1.rsp
 app.exe: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=J:\my_project\04_my_github\cpp_learning\algorithm\programmercarl\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

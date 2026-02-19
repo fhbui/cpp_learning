@@ -236,7 +236,7 @@ int Solution::evalRPN(std::vector<std::string>& tokens){
 }
 
 /**
- * 【239. 滑动窗口最大值】
+ * 【239. 滑动窗口最大值】（力扣上困难的就先暂时放下吧）
  */
 std::vector<int> Solution::maxSlidingWindow(std::vector<int>& nums, int k){
     std::queue<int> queue;
@@ -249,8 +249,7 @@ std::vector<int> Solution::maxSlidingWindow(std::vector<int>& nums, int k){
 
     for(int i=0; i<max_vector.size(); i++){
         // 找最大
-        queue.
-        max_vector[i] = max_num;
+
         queue.pop();
         queue.push(nums[k+i]);
     }
@@ -259,3 +258,4 @@ std::vector<int> Solution::maxSlidingWindow(std::vector<int>& nums, int k){
 /**
  * 【347. 前 K 个高频元素】
  */
+

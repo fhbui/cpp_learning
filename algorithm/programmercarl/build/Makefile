@@ -200,6 +200,30 @@ src/array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/array.cpp.s
 .PHONY : src/array.cpp.s
 
+src/binary_tree.obj: src/binary_tree.cpp.obj
+.PHONY : src/binary_tree.obj
+
+# target to build an object file
+src/binary_tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/binary_tree.cpp.obj
+.PHONY : src/binary_tree.cpp.obj
+
+src/binary_tree.i: src/binary_tree.cpp.i
+.PHONY : src/binary_tree.i
+
+# target to preprocess a source file
+src/binary_tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/binary_tree.cpp.i
+.PHONY : src/binary_tree.cpp.i
+
+src/binary_tree.s: src/binary_tree.cpp.s
+.PHONY : src/binary_tree.s
+
+# target to generate assembly for a file
+src/binary_tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/binary_tree.cpp.s
+.PHONY : src/binary_tree.cpp.s
+
 src/hash_table.obj: src/hash_table.cpp.obj
 .PHONY : src/hash_table.obj
 
@@ -248,6 +272,54 @@ src/linked_list.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/linked_list.cpp.s
 .PHONY : src/linked_list.cpp.s
 
+src/stack_and_queue.obj: src/stack_and_queue.cpp.obj
+.PHONY : src/stack_and_queue.obj
+
+# target to build an object file
+src/stack_and_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/stack_and_queue.cpp.obj
+.PHONY : src/stack_and_queue.cpp.obj
+
+src/stack_and_queue.i: src/stack_and_queue.cpp.i
+.PHONY : src/stack_and_queue.i
+
+# target to preprocess a source file
+src/stack_and_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/stack_and_queue.cpp.i
+.PHONY : src/stack_and_queue.cpp.i
+
+src/stack_and_queue.s: src/stack_and_queue.cpp.s
+.PHONY : src/stack_and_queue.s
+
+# target to generate assembly for a file
+src/stack_and_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/stack_and_queue.cpp.s
+.PHONY : src/stack_and_queue.cpp.s
+
+src/two_pointers.obj: src/two_pointers.cpp.obj
+.PHONY : src/two_pointers.obj
+
+# target to build an object file
+src/two_pointers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/two_pointers.cpp.obj
+.PHONY : src/two_pointers.cpp.obj
+
+src/two_pointers.i: src/two_pointers.cpp.i
+.PHONY : src/two_pointers.i
+
+# target to preprocess a source file
+src/two_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/two_pointers.cpp.i
+.PHONY : src/two_pointers.cpp.i
+
+src/two_pointers.s: src/two_pointers.cpp.s
+.PHONY : src/two_pointers.s
+
+# target to generate assembly for a file
+src/two_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/src/two_pointers.cpp.s
+.PHONY : src/two_pointers.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -266,12 +338,21 @@ help:
 	@echo ... src/array.obj
 	@echo ... src/array.i
 	@echo ... src/array.s
+	@echo ... src/binary_tree.obj
+	@echo ... src/binary_tree.i
+	@echo ... src/binary_tree.s
 	@echo ... src/hash_table.obj
 	@echo ... src/hash_table.i
 	@echo ... src/hash_table.s
 	@echo ... src/linked_list.obj
 	@echo ... src/linked_list.i
 	@echo ... src/linked_list.s
+	@echo ... src/stack_and_queue.obj
+	@echo ... src/stack_and_queue.i
+	@echo ... src/stack_and_queue.s
+	@echo ... src/two_pointers.obj
+	@echo ... src/two_pointers.i
+	@echo ... src/two_pointers.s
 .PHONY : help
 
 
